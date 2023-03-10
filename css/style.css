@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;500&display=swap");
+
+* {
+  font-family: Cairo;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  background-color: rgba(74, 108, 74, 0.8);
+  color: #fff;
+  padding-top: 0px;
+  border-top: solid red 4px;
+  position: fixed;
+  width: 100%;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: ease 1s;
+  font-size: 18px;
+}
+
+header a:hover {
+  color: #1abc;
+  font-size: 21px;
+}
+
+.carsour {
+  height: 100vh;
+  display: flex;
+  background-image: url("../images/EWBTE.png");
+  align-items: center;
+  color: rgb(54, 39, 39);
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 255, 0.332);
+}
+
+.carsour div {
+  margin-left: 80px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgba(77, 77, 95, 0.483);
+}
+
+.carsour span {
+  color: white;
+}
+
+.carsour a {
+  color: rgb(91, 82, 82);
+  text-decoration: none;
+  background-color: aqua;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: ease 1s;
+}
+
+.carsour a:hover {
+  transform: scale(1.1);
+  background-color: rgba(0, 255, 255, 0.325);
+}
+
+.services h2 {
+  text-align: center;
+
+  margin: 30px 0;
+}
+
+.services .container {
+  display: flex;
+  padding: 0 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services .card {
+  margin-right: 20px;
+  box-shadow: 6px 6px 6px 6px #ccc;
+  padding: 10px;
+  width: 16em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #050566bd;
+  font-weight: 1000;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.services .container .card div {
+  font-size: 40px;
+  color: rgba(0, 0, 255, 0.347);
+  transition: ease 1s;
+}
+
+.services .container .card div:hover {
+  font-size: 50px;
+  color: rgba(0, 0, 255, 0.649);
+}
+
+.protofilio .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.protofilio {
+  background-color: rgba(121, 121, 198, 0.609);
+  text-align: center;
+  color: black;
+  padding: 30px 100px;
+}
+
+.protofilio h2 {
+  color: rgba(41, 41, 56, 0.531);
+  margin-bottom: 20px;
+  border-bottom: solid;
+  display: inline-block;
+}
+
+.protofilio .card {
+  background-color: #fff;
+  border-radius: 20px;
+  margin-right: 20px;
+  width: 16em;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  min-height: 250px;
+}
+
+.protofilio button {
+  border-radius: 10px;
+  color: rgb(31, 28, 28);
+  background-color: rgba(105, 136, 154, 0.375);
+  padding: 0px 5px;
+  border: none;
+  transition: ease 1s;
+}
+
+.protofilio button:hover {
+  border-radius: 10px;
+  color: rgb(31, 28, 28);
+  background-color: rgba(105, 136, 154, 0.688);
+  padding: 0px 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.protofilio .card-content {
+  margin: 0 8xp;
+  display: flex;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  padding: 4px;
+}
+
+.card-content p {
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.card-content button {
+  flex-shrink: 0;
+  align-self: end;
+}
+
+.notila {
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+}
+.notila h1{
+    color:rgba(142, 142, 200, 0.741);
+}
+.notila p {
+  font-size: 15px;
+}
+.notila-desc {
+  width: 60%;
+  text-align: center;
+  margin-left:10px;
+}
+.notilaimg {
+  width:30%;
+  margin-right:  3px; 
+  border-radius:10px;
+  overflow:hidden;
+box-shadow:0px 0px 2px rgb(0 0 0 /40%);
+}
+.notilaimg img{
+    margin-right:30px;
+    border-radius:10px;
+    overflow:hidden;
+    width:100%;
+}
+
+.crazy{
+    padding:50px;
+   background-image:url('../images/vector_flower.jpg');
+   background-size:10%;
+   background-position:center;
+   background-attachment:fixed;
+    min-height:80vh;
+
+    text-align:center;
+}
+.crazy>div{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+    flex-wrap:wrap;
+
+}
+.crazy img{
+    border-radius : 50%;
+    width: 10em;
+    height:10em; 
+    margin:12px;
+    border:solid rgba(74, 61, 61, 0.584);
+    margin-right: 20px;
+
+}
+
+.crazy h2{
+    color:rgba(242, 242, 250, 0.822);
+    text-align:center;
+    border: solid gray;
+    width: fit-content;
+    display:inline-block;
+    justify-content:center;
+    background-color:rgba(128, 128, 128, 0.472);
+}
+
+.crazy .animation:hover{
+animation:lefttoup 2s ease-in  infinite;
+}
+
+@keyframes lefttoup{
+100%{
+    transform: translate(3%,10%);
+}
+50%{
+    transform: translate(-5%,-10%);
+}
+0%{
+    transform: translate(3%,10%);
+
+}
+}
+
+.rtl{
+  margin-left:30px;
+  border-radius:10px;
+  overflow:hidden;
+  width:40%;
+}
+
+.contact{
+  padding:100px;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(3,56,216,0.4285714285714286) 86%, rgba(0,212,255,1) 100%);
+text-align: center;
+}
+.contact h2{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  border-bottom: solid;
+  display: inline-block;
+}
+
+.infor{
+width: 100%;
+margin-bottom:20px;
+position: relative;
+
+}
+
+.infor input{
+  border:none;
+  outline:none;
+  border-bottom: solid rgba(0, 0, 255, 0.378);
+  padding:0 5px ;
+  width: 100%;
+  height:40px;
+}
+.infor input:hover~label{
+  top:13%;
+  transform: translatey(-40%)
+}
+.infor input:valid~label{
+  top:13%;
+  transform: translatey(-40%)
+}
+.infor label{
+  font-size:15px;
+  position: absolute;
+  top:30%;
+  left:10px;
+  transform: translatey(-30%);
+  transition: all 1s;
+  pointer-events: none;
+
+}
+.btn{
+  padding: 5px 30px;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: ease 1s;
+  background-color: rgba(146, 146, 151, 0.356);
+}
+
+.btn:hover{
+  padding: 10px 35px;
+  border:none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: rgb(48, 44, 44);
+  transform: scale(1.1);
+  background-color: rgba(141, 141, 161, 0.713);
+}
+.map{
+  padding:100px;
+  display:flex;
+  justify-content:center;
+ 
+}
+.map div{
+  width:100% !important;
+  padding: 20px;
+  box-shadow: 50px  10px 35px 50px rgb(13, 98, 126) ;
+}
+.map iframe {
+  width:100% !important;
+}
+
+.fotter{
+  text-align:center;
+  color:white;
+  padding:15px;
+  background-color: rgba(38, 38, 47, 0.528);
+}
+
+
+/* scroll   /how to customize scroll in css*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  /* border-radius: 10px; */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(46, 40, 111, 0.341); 
+  /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(46, 40, 111, 0.674);
+}
+.Up{
+  width: 25px;
+  height: 25px;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  position:fixed;
+  right: 4px;
+  bottom: 4px;
+  border-radius:50% ;
+  background-color:rgba(0, 0, 255, 0.471);
+  cursor:pointer;
+  transition:ease 1s;
+}
+
+.Up:hover{
+  width:30px;
+}
